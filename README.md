@@ -3,7 +3,7 @@
 
 ## Overview
 
-This is a little website that breifly describes each adaptation of Jane Austen's Emma.
+This is a little website that briefly describes each adaptation of Jane Austen's Emma.
 
 ## Implementation
 
