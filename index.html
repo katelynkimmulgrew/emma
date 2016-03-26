@@ -1,0 +1,171 @@
+<html>
+<head>
+	<title>Emma Adaptations</title>
+	<link rel="stylesheet" type="text/css" href="EmmaAdaptationsCSS.css">
+
+	<style type="text/css">
+
+		.selected {
+			filter: url(#drop_shadow);
+			animation: change 5s;
+			-webkit-animation: change 5s;
+			animation-direction: alternate-reverse;
+			-webkit-animation-direction: alternate-reverse;
+		}
+
+		.unselected {}
+
+		.itIsTime {					
+			
+			filter: url(#drop_shadow);
+
+			animation: spin 5s;
+			-webkit-animation: spin 5s;
+						
+
+			transform-origin: 50% 50%;
+			-webkit-transform-origin:50% 50%;
+
+						
+
+			animation-timing-function:linear;
+			-webkit-animation-timing-function:linear;
+						
+
+			animation-iteration-count: infinite;
+			-webkit-animation-iteration-count: infinite;
+			
+		}
+
+		.itIsNotTime {}
+
+		@keyframes change {
+			100% {fill: rgb(254,235,231);}
+		}
+
+		@-webkit-keyframes change {
+			100% {fill: rgb(254,235,231);}
+		}
+		
+		@keyframes spin {
+		    from {transform:rotateY(0deg);}
+		    to {transform:rotateY(360deg);}
+		}
+
+		@-webkit-keyframes spin {
+		    from { -webkit-transform: rotateY(0deg);}
+		    to { -webkit-transform: rotateY(360deg);}
+		}
+
+	</style>
+</head>
+<body>
+
+	<div id="container">
+		<div id="header">
+			<h1>Emma Adaptations</h1>
+		</div>
+		<div id="collage">
+			<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+				 width="784.706px" height="240px" viewBox="0 0 784.706 240" style="enable-background:new 0 0 784.706 240;" xml:space="preserve"
+				>
+			<defs>
+				<filter id="drop_shadow" x="0" y="0" width="200%" height="200%">	
+				<feOffset result="offOut" in="SourceGraphic" dx="10" dy="10" />
+				<feColorMatrix result="matrixOut" in="offOut" type="matrix" values="0.5 0 0 0 0 0 0.5 0 0 0 0 0 0.5 0 0 0 0 0 5 0" />
+				<feGaussianBlur result="blurOut" in="matrixOut" stdDeviation="5" />
+				<feBlend in="SourceGraphic" in="blurOut" mode="normal" />
+				</filter>
+			</defs>
+			<g id="Emma1972">
+				<circle id="Emma1972Circle" style="fill:#B9D4DB;" cx="158.824" cy="124.609" r="93.237"/>
+				<g>
+					
+						<image style="overflow:visible;" width="553" height="553" xlink:href="Emma1.png"  transform="matrix(0.3117 0 0 0.3117 71.7061 38.0552)">
+					</image>
+				</g>
+			</g>
+			<g id="Emma1996">
+				<circle id="Emma1996Circle" style="fill:#F4E4C3;" cx="305.972" cy="125.221" r="95.5"/>
+				<g>
+					
+						<image style="overflow:visible;" width="665" height="662" xlink:href="Emma2.png"  transform="matrix(0.2701 0 0 0.2701 216.1484 35.1914)">
+					</image>
+				</g>
+			</g>
+			<g id="Emma1997">
+				<circle id="Emma1997Circle" style="fill:#C9B8C6;" cx="455.029" cy="125.609" r="95.442"/>
+				<g>
+					
+						<image style="overflow:visible;" width="496" height="497" xlink:href="Emma3.png"  transform="matrix(0.3622 0 0 0.3622 365.353 35.2168)">
+					</image>
+				</g>
+			</g>
+			<g id="Emma2009">
+				<circle id="Emma2009Circle" style="fill:#CCACA6;" cx="606.029" cy="125.609" r="95.442"/>
+				<g>
+					
+						<image style="overflow:visible;" width="553" height="553" xlink:href="Emma4.png"  transform="matrix(0.3249 0 0 0.3249 516.2056 35.3975)">
+					</image>
+				</g>
+			</g>
+			<g id="text">
+			<g id="Emma1972Text">
+				<text transform="matrix(1.0831 0 0 1 113.2358 25.0898)" style="font-family:'Optima-Regular';" style="font-size:15.1785;">Emma 1972</text>
+			</g>
+			<g id="Emma1996Text">
+				<text transform="matrix(1 0 0 1 270.8838 25.0898)" style="font-family:'Optima-Regular';" style="font-size:16.0976;">Emma 1996</text>
+			</g>
+			<g id="Emma1997Text">
+				<text transform="matrix(1.1743 0 0 1 415.5884 25.0898)" style="font-family:'Optima-Regular';" style="font-size:14.5801;">Emma 1997</text>
+			</g>
+			<g id="Emma2009Text">
+				<text transform="matrix(1.1281 0 0 1 560.7651 25.0898)" style="font-family:'Optima-Regular';" style="font-size:15.1781;">Emma 2009</text>
+			</g>
+		</g>
+			</svg>
+
+		<div> <!--end collage div-->
+		
+		<div id="description">
+			Click the Emma icons to read descriptions of each adaptation!  
+		</div> <!--end description div-->
+		<div id="LatestEmma">
+		<h2>The Latest on Emma</h2>
+		<p>There is an modern online adaptation of Emma that plays on Mondays and Thursdays.  Click <a href="https://www.youtube.com/playlist?list=PL_ePOdU-b3xcKOsj8aU2Tnztt6N9mEmur">here</a> to be redirected to the official youtube account's playlist.</p>
+		<div id="EmmaApprovedEmotion">
+			<img id="EmmaApprovedEmotionPicture" >
+		</div> <!--end EmmaApprovedEmotion div-->
+		<div id="isItEmmaDayID">
+		</div> <!--end isItEmmaDayID div-->
+	</div> <!--end LatestEmma div-->
+	</div> <!--end container div-->	
+	
+
+	<script src="EmmaAdaptationsJS.js"></script>
+	<script src="keypress.min.js"></script>
+
+	<script>
+var isItEmmaDayVar = document.getElementById("isItEmmaDayID");
+var EmmaApprovedPicture = document.getElementById("EmmaApprovedEmotionPicture");
+var EmmaApprovedDiv = document.getElementById("EmmaApprovedEmotion");
+var listener = new window.keypress.Listener;
+
+function simulateToday() {
+	isItEmmaDayVar.innerHTML = "What are you waiting for?  It's today!  Click the link above to see the latest video!";
+	EmmaApprovedDiv.setAttribute("class","itIsTime");
+	EmmaApprovedPicture.src = "EmmaApprovedHappy.png";
+}
+
+function simulateNotToday() {
+	isItEmmaDayVar.innerHTML = "Too bad, it's not playing today!";
+	EmmaApprovedDiv.setAttribute("class","itIsNotTime");
+	EmmaApprovedPicture.src = "EmmaApprovedSad.png";
+}
+
+listener.simple_combo("shift a", simulateToday);
+listener.simple_combo("shift b", simulateNotToday);
+
+	</script>
+</body>
+</html>
